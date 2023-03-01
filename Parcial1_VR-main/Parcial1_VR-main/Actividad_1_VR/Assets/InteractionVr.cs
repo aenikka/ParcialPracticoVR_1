@@ -22,7 +22,7 @@ public class InteractionVr : MonoBehaviour
       }
    }
    
-   void ActiveParticleSystemInteraction()
+   public void ActiveParticleSystemInteraction()
    {
       particleSystem.Play();
    }
